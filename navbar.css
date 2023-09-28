@@ -211,7 +211,7 @@ body{
     }
   }
 .hr{
-    border-width: 2px;
+    border-width: 5px;
     /* margin-top: 10px; */
 }
 /* content section styling end */
@@ -220,7 +220,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 /* experience section styling */
@@ -229,7 +229,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .exp-col{
@@ -253,7 +253,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .container {
@@ -389,7 +389,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 .column-left{
     float: left;
@@ -429,7 +429,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 .contact-container{
     border-radius: 5px;
@@ -461,6 +461,6 @@ input[type=text], select, textarea {
   footer {
     text-align: center;
     padding: 3px;
-    background-color: rgb(189, 186, 185);
+    background-color: rgb(236, 236, 236);
     color: white;
   } 
