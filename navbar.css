@@ -214,6 +214,13 @@ body{
     margin-top: 10px;
 }
 /* content section styling end */
+.education{
+    display: block;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+}
 
 /* experience section styling */
 .experience{
@@ -268,6 +275,13 @@ body{
     float: left;
     width: 33.33333%;
     padding: 20px;
+  }
+  .column-year{
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   .large-font {
