@@ -12,54 +12,71 @@
 <body>
 
     <!-- navigation Bar -->
-
-    <div class="navigation">
-        <ul>
-            <li class="list active">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                    <span class="text">Home</span>
-                </a>
-            </li>
-            <li class="list">
+    <header class="navbar">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <!-- <li class="list">
                 <a href="#">
                     <span class="icon">
                         <ion-icon name="person-outline"></ion-icon>
                     </span>
                     <span class="text">Profile</span>
                 </a>
-            </li>
-            <li class="list">
-                <a href="#contactme">
-                    <span class="icon">
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                    </span>
-                    <span class="text">Message</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="camera-outline"></ion-icon>
-                    </span>
-                    <span class="text">Photo</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="settings-outline"></ion-icon>
-                    </span>
-                    <span class="text">Setting</span>
-                </a>
-            </li>
-            <div class="indicator">
+            </li> -->
+                <li class="list">
+                    <a href="#education">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="text">Education</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#experience">
+                        <span class="icon">
+                            <ion-icon name="camera-outline"></ion-icon>
+                        </span>
+                        <span class="text">Experience</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#projects">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="text">Projects</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#skills">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="text">Skills</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#contactme">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <div class="indicator">
 
-            </div>
-        </ul>
-    </div>
+                </div>
+            </ul>
+        </div>
+    </header>
     <!-- navigation bar end -->
 
 
@@ -105,7 +122,7 @@
 
         <!-- EDUCTION SECTION START -->
 
-        <div class="education">
+        <div class="education" id="education">
             <div style="text-align:center">
                 <h1 class="xlarge-font">EDUCATION</h1>
             </div>
@@ -149,7 +166,7 @@
 
 
 
-        <div class="experience">
+        <div class="experience" id="experience">
             <div style="text-align:center">
                 <h1 class="xlarge-font">EXPERIENCE</h1>
             </div>
@@ -177,14 +194,11 @@
         </div>
 
 
-
-
-
         <hr class="hr">
 
 
         <!-- project section start here -->
-        <div class="projects">
+        <div class="projects" id="projects">
             <div style="text-align:center">
                 <h1 class="xlarge-font">PROJECTS</h1class>
             </div>
@@ -275,7 +289,7 @@
         <hr class="hr">
         <!-- Skills section start here -->
 
-        <div class="skills">
+        <div class="skills" id="skills">
             <div style="text-align:center">
                 <h1 class="xlarge-font">Skills</h1class>
             </div>
@@ -368,12 +382,13 @@
         <!-- footer section -->
         <div class="footer-section">
             <!-- <div class="container"> -->
-                <!-- <div class="row"> -->
-                    <footer>
-                        <p style="color: black;"><b>Aditya Singh © 2023</b> <br>
-                        <a href="mailto:as23july@gmail.com">as23july@gmail.com</a></p>
-                      </footer>
-                <!-- </div> -->
+            <!-- <div class="row"> -->
+            <footer>
+                <p style="color: black;"><b>Aditya Singh © 2023</b> <br>
+                    <a href="mailto:as23july@gmail.com">as23july@gmail.com</a>
+                </p>
+            </footer>
+            <!-- </div> -->
             <!-- </div> -->
         </div>
         <!-- IOCIONS pack for differnt icons -->
@@ -391,6 +406,7 @@
                 item.addEventListener('click', activeLink));
         </script>
         <script src="https://kit.fontawesome.com/ae3c973ca9.js" crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
