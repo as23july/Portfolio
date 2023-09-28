@@ -211,7 +211,7 @@ body{
   }
 .hr{
     border-width: 2px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 /* content section styling end */
 .education{
@@ -351,7 +351,7 @@ body{
     border-radius: 60px;
 }
 
-.button-github{
+.button-social{
     border: none;
     color: white;
     padding: 19px 20px;
@@ -383,6 +383,83 @@ body{
 .fa-brands{
     padding-right: 10px !important;
 }
-.button-link{
-    
+.skills{
+    display: block;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
 }
+.column-left{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.column-right{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.skill-container{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+.skills-bar{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 20px;
+}
+.java {width: 90%; background-color: #db2e2e;}
+.cpp {width: 90%; background-color: #04AA6D;}
+.python {width: 80%; background-color: #2196F3;}
+.mysql {width: 95%; background-color: #18bb98c0;}
+.react {width: 80%; background-color: #4812db;}
+.htmlcss {width: 100%; background-color: #aa47ec;}
+.js {width: 95%; background-color: #fc1fa0;}
+.node {width: 80%; background-color: #eed70b;}
+.django {width: 70%; background-color: #8df506;}
+.git {width: 100%; background-color: #11800dfd;}
+
+.contact{
+    display: block;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+}
+.contact-container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .footer-section{
+    display: block;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(189, 186, 185);
+    color: white;
+  } 
