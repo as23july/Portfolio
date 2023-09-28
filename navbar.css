@@ -270,7 +270,13 @@ body{
     width: 66.66666%;
     padding: 20px;
   }
-  
+  @media screen and (max-width: 1000px){
+    .row{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  }
   .column-33 {
     float: left;
     width: 33.33333%;
@@ -282,6 +288,15 @@ body{
     padding: 20px;
     display: flex;
     justify-content: center;
+  }
+  @media screen and (max-width: 600px) {
+    .column-year{
+        float: left;
+        width: 33.33333%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
   }
   
   .large-font {
