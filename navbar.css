@@ -101,6 +101,12 @@ body{
     border-radius: 80%;
     transition: 0.5s;
 }
+@media screen and (max-width: 1000px){
+    .indicator{
+
+    }
+
+}
 .navigation ul li:nth-child(1).active ~ .indicator{
     transform: translateX(calc(-566px * 1));
 }
