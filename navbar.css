@@ -103,7 +103,9 @@ body{
 }
 @media screen and (max-width: 1000px){
     .indicator{
-
+        position:relative;
+        transform: translateX(calc(100px));
+        background: transparent;
     }
 
 }
